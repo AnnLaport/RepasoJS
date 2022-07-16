@@ -1,0 +1,39 @@
+.container{
+    background-image: url(./rvn2.jpg);
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    width:40%;
+    height:50vh;
+    background-color: rgb(226, 226, 226);
+    box-shadow: 5px 10px #3f3f3f;
+    border-radius: 1rem;
+}
+
+.login form{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login input{
+    margin:0.5rem;
+}
+ 
+.login button{
+    padding:0.5rem;
+    margin:1rem;
+}
+.login h3{
+    padding:0.5rem;
+}
+
+
