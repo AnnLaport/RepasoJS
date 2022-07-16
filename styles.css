@@ -12,9 +12,10 @@
 .login{
     width:40%;
     height:50vh;
-    background-color: rgb(226, 226, 226);
+    background-color: rgb(185, 184, 184);
     box-shadow: 5px 10px #3f3f3f;
     border-radius: 1rem;
+    opacity: 0.8;
 }
 
 .login form{
@@ -26,14 +27,17 @@
 
 .login input{
     margin:0.5rem;
+    opacity: 1.0;
 }
  
 .login button{
     padding:0.5rem;
     margin:1rem;
+    opacity: 1;
 }
 .login h3{
     padding:0.5rem;
+    opacity: 1;
 }
 
 
