@@ -11,12 +11,12 @@
     <div class="container">
         <div class="login">
             <h3>Login</h3>
-            <form action="#">
+            <form action="#" method="post">
                 <label>Email:</label>
-                <input type="email" />
+                <input type="email" placeholder="usuario" required="true" minlength="12" maxlength="30" />
                 <label>Password:</label>
-                <input type="password" />
-                <button>Iniciar sesión</button>
+                <input type="password" placeholder="contrasenia" required="true" minlength="12" maxlength="30" />
+                <button type="submit">Iniciar sesión</button>
             </form>
         </div>
     </div>
