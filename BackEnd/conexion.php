@@ -9,6 +9,5 @@
 		die("Problemas con la conexi&oacute;n al servidor MySQL: ".mysqli_connect_error());
 	}else{
 		mysqli_query($conexion, "SET NAMES 'utf8'"); //Esta instrucción permite guardar eñes y acentos en la BD ;)
-        echo 'conectado';
 	}
 ?>

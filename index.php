@@ -11,14 +11,18 @@
     <div class="container">
         <div class="login">
             <h3>Login</h3>
-            <form action="#" method="post">
+            <form method="post" id="formulario">
                 <label>Email:</label>
-                <input type="email" placeholder="usuario" required="true" minlength="12" maxlength="30" />
+                <input type="text" id="usuario" name="usuario" placeholder="usuario" required="true" minlength="4" maxlength="30" />
                 <label>Password:</label>
-                <input type="password" placeholder="contrasenia" required="true" minlength="12" maxlength="30" />
+                <input type="password" id="password" name="password" placeholder="contrasenia" required="true" minlength="4" maxlength="30" />
                 <button type="submit">Iniciar sesión</button>
             </form>
+            <div id="alert"></div>
         </div>
     </div>
+
+    <script src="./js/app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
 </body>
 </html>
