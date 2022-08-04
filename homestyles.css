@@ -1,0 +1,94 @@
+
+.container{
+    margin: 3rem;
+    border: 1px solid black;
+    padding:2rem;
+}
+
+button{
+    width:30%;
+    padding:1rem;
+    margin: 1rem;
+    border-radius: 2rem;
+    background-color: rgb(113, 146, 252);
+}
+
+button:hover{
+    background-color: aliceblue;
+}
+
+.mc{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.mcfragment{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 10px 5px #888888;
+}
+
+/* .contenedorimgs{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black; 
+    width:100%;
+    box-shadow: 10px 5px #888888;
+} */
+.imagenes{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:30%;
+    height: 60vh;
+}
+
+.imagenes1{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:30%;
+    height: 50vh;
+    flex-direction: column;
+}
+
+.imgmedio{
+    display:flex;
+    width:100%;
+    height:50%;
+}
+
+.imgmedio1{
+    display:flex;
+    width:100%;
+    height:50%;
+}
+
+.imgmedio2{
+    width:50%;
+}
+
+.imagenes,.imagenes1, .imgmedio,.imgmedio1,.imgmedio2{
+    margin:0.2rem;
+    border-radius:5px;
+}
+
+img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+@media only screen and (max-width: 650px){
+    button{
+        width:100%;
+        margin:0px;
+    }
+    .imagenes,.imagenes1, .imgmedio,.imgmedio1,.imgmedio2{
+        margin:0rem;
+    }
+}
