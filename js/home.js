@@ -2,9 +2,7 @@ console.log('hola desde javascript');
 
 
 const serabutton = (num) => {
-  console.log("apretaste el boton de sera");
 
-  
   const divimgs = document.querySelector(".mcfragment");
 
   if(num==1){
